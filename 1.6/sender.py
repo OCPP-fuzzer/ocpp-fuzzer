@@ -11,7 +11,7 @@ def pretty_print_json(data):
     print(json.dumps(data, indent=4))
 
 async def send_request(request_data, url):
-    async with websockets.connect(url) as websocket:
+    async with websockets.connect(url, subprotocols=["ocpp1.6"]) as websocket:
         await websocket.send(json.dumps(request_data))
         response = json.loads(await websocket.recv())
         print("Response:")
@@ -76,5 +76,5 @@ def main():
     
     print("Request:")
     pretty_print_json(params)
-    
+
     asyncio.run(send_request(params, req_url))
