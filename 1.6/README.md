@@ -1,4 +1,4 @@
-# OCPP 1.6 Fuzzer
+# OCPP 1.6 Sender
 ## 개요
 * 현재 sender 기능 및 요청에 따른 파라미터 생성 기능까지 구현됨
 
