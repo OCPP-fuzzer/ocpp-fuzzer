@@ -77,4 +77,4 @@ def main():
     print("Request:")
     pretty_print_json(params)
     
-    # asyncio.run(send_request(params, req_url))
+    asyncio.run(send_request(params, req_url))
