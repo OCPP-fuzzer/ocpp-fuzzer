@@ -1,0 +1,4 @@
+status GetCompositeScheduleStatus 1..1 Required. Status of the request. The Charge Point will indicate if it was able to process the request
+connectorId integer 0..1 Optional. The charging schedule contained in this notification applies to a Connector.
+scheduleStart dateTime 0..1 Optional. Time. Periods contained in the charging profile are relative to this point in time. If status is "Rejected", this field may be absent.
+chargingSchedule ChargingSchedule 0..1 Optional. Planned Composite Charging Schedule, the energy consumption over time. Always relative to ScheduleStart. If status is "Rejected", this field may be absent.

@@ -1,0 +1,1 @@
+status ReservationStatus 1..1 Required. This indicates the success or failure of the reservation.

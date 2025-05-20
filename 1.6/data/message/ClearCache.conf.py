@@ -1,0 +1,1 @@
+status ClearCacheStatus 1..1 Required. Accepted if the Charge Point has executed the request, otherwise rejected.

@@ -1,0 +1,1 @@
+reservationId integer 1..1 Required. Id of the reservation to cancel.

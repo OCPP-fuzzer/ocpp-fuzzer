@@ -1,0 +1,1 @@
+connectorId integer connectorId > 0 1..1 Required. This contains the identifier of the connector to be unlocked.

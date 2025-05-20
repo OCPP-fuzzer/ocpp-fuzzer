@@ -1,0 +1,1 @@
+CiString20Type IdToken is case insensitive.

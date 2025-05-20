@@ -1,0 +1,1 @@
+currentTime dateTime 1..1 Required. This contains the current time of the Central System.

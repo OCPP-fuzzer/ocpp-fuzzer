@@ -1,0 +1,1 @@
+type ResetType 1..1 Required. This contains the type of reset that the Charge Point should perform.

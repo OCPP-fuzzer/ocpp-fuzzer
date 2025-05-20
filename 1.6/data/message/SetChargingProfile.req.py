@@ -1,0 +1,2 @@
+connectorId integer 1..1 Required. The connector to which the charging profile applies. If connectorId = 0, the message contains an overall limit for the Charge Point.
+csChargingProfiles ChargingProfile 1..1 Required. The charging profile to be set at the Charge Point.

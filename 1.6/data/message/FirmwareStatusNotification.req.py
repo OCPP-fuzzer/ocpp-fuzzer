@@ -1,0 +1,1 @@
+status FirmwareStatus 1..1 Required. This contains the progress status of the firmware installation.

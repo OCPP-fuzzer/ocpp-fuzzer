@@ -1,0 +1,1 @@
+transactionId integer 1..1 Required. The identifier of the transaction which Charge Point is requested to stop.

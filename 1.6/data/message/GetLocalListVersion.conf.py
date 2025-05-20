@@ -1,0 +1,1 @@
+listVersion integer 1..1 Required. This contains the current version number of the local authorization list in the Charge Point.

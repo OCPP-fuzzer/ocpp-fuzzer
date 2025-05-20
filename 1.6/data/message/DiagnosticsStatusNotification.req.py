@@ -1,0 +1,1 @@
+status DiagnosticsStatus 1..1 Required. This contains the status of the diagnostics upload.

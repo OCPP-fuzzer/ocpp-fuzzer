@@ -1,0 +1,6 @@
+BootNotification To trigger a BootNotification request
+DiagnosticsStatusNotification To trigger a DiagnosticsStatusNotification request
+FirmwareStatusNotification To trigger a FirmwareStatusNotification request
+Heartbeat To trigger a Heartbeat request
+MeterValues To trigger a MeterValues request
+StatusNotification To trigger a StatusNotification request

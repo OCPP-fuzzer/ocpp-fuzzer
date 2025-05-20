@@ -1,0 +1,1 @@
+status ResetStatus 1..1 Required. This indicates whether the Charge Point is able to perform the reset.

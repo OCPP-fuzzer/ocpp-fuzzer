@@ -1,0 +1,1 @@
+status ChargingProfileStatus 1..1 Required. Returns whether the Charge Point has been able to process the message successfully. This does not guarantee the schedule will be followed to the letter. There might be other constraints the Charge Point may need to take

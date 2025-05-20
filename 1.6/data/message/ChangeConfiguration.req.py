@@ -1,0 +1,2 @@
+key CiString50Type 1..1 Required. The name of the configuration setting to change. See for standard configuration key names and associated values
+value CiString500Type 1..1 Required. The new value as string for the setting. See for standard configuration key names and associated values

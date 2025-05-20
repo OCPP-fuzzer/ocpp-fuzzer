@@ -1,0 +1,1 @@
+status TriggerMessageStatus 1..1 Required. Indicates whether the Charge Point will send the requested notification or not.

@@ -1,0 +1,1 @@
+status RemoteStartStopStatus 1..1 Required. Status indicating whether Charge Point accepts the request to start a transaction.

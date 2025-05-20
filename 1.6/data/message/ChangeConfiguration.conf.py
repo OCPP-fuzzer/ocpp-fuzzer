@@ -1,0 +1,1 @@
+status ConfigurationStatus 1..1 Required. Returns whether configuration change has been accepted.

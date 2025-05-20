@@ -1,0 +1,1 @@
+status ClearChargingProfileStatus 1..1 Required. Indicates if the Charge Point was able to execute the request.

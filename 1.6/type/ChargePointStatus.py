@@ -1,0 +1,39 @@
+from enum import Enum
+    
+class ChargePointStatus(Enum):
+
+    """
+    EnumType class
+    : Available : When a Connector becomes available for a new user (Operative)
+    : Preparing : When a Connector becomes no longer available for a new user but there is no ongoing Transaction (yet). Typically a Connector is in preparing state when a user presents a tag, inserts a cable or a vehicle occupies the parking bay (Operative)
+    : Charging : When the contactor of a Connector closes, allowing the vehicle to charge (Operative)
+    : SuspendedEVSE : When the EV is connected to the EVSE but the EVSE is not offering energy to the EV, e.g. due to a smart charging restriction, local supply power constraints, or as the result of StartTransaction.conf indicating that charging is not allowed etc. (Operative)
+    : SuspendedEV : When the EV is connected to the EVSE and the EVSE is offering energy but the EV is not taking any energy. (Operative)
+    : Finishing : When a Transaction has stopped at a Connector, but the Connector is not yet available for a new user, e.g. the cable has not been removed or the vehicle has not left the parking bay (Operative)
+    : Reserved : When a Connector becomes reserved as a result of a Reserve Now command (Operative)
+    : Unavailable : When a Connector becomes unavailable as the result of a Change Availability command or an event upon which the Charge Point transitions to unavailable at its discretion. Upon receipt of a Change Availability command, the status MAY change immediately or the change MAY be scheduled. When scheduled, the Status Notification shall be send when the availability change becomes effective (Inoperative)
+    : Faulted : When a Charge Point or connector has reported an error and is not available for energy delivery . (Inoperative).
+    """
+
+    AVAILABLE = "Available"
+    PREPARING = "Preparing"
+    CHARGING = "Charging"
+    SUSPENDEDEVSE = "SuspendedEVSE"
+    SUSPENDEDEV = "SuspendedEV"
+    FINISHING = "Finishing"
+    RESERVED = "Reserved"
+    UNAVAILABLE = "Unavailable"
+    FAULTED = "Faulted"
+
+    def get_value(self):
+        return self.value
+
+    @classmethod
+    def get_members(cls):
+        return [m for m in cls]
+
+    @classmethod
+    def get_sample(cls, option=False):
+        value = __import__('random').choice(list(cls))
+        return value.value
+    

@@ -1,0 +1,2 @@
+idTagInfo IdTagInfo 1..1 Required. This contains information about authorization status, expiry and parent id.
+transactionId integer 1..1 Required. This contains the transaction id supplied by the Central System.

@@ -1,0 +1,1 @@
+idTagInfo IdTagInfo 0..1 Optional. This contains information about authorization status, expiry and parent id. It is optional, because a transaction may have been stopped without an identifier.

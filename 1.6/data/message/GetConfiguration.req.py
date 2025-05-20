@@ -1,0 +1,1 @@
+key CiString50Type 0..* Optional. List of keys for which the configuration value is requested.

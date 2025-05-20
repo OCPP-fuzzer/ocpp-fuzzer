@@ -1,0 +1,1 @@
+status CancelReservationStatus 1..1 Required. This indicates the success or failure of the cancelling of a reservation by Central System.

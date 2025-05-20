@@ -1,0 +1,1 @@
+idTagInfo IdTagInfo 1..1 Required. This contains information about authorization status, expiry and parent id.

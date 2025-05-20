@@ -1,0 +1,3 @@
+currentTime dateTime 1..1 Required. This contains the Central System’s current time.
+interval integer 1..1 Required. When RegistrationStatus is Accepted, this contains the heartbeat interval in seconds. If the Central System returns something other than Accepted, the value of the interval field indicates the minimum wait time before sending a next BootNotification request.
+status RegistrationStatus 1..1 Required. This contains whether the Charge Point has been registered within System Central.

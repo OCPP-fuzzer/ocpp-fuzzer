@@ -1,0 +1,1 @@
+status UpdateStatus 1..1 Required. This indicates whether the Charge Point has successfully received and applied the update of the local authorization list.

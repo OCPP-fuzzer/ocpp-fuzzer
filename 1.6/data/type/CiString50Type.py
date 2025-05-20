@@ -1,0 +1,1 @@
+CiString[50] String is case insensitive.

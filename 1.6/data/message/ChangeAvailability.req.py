@@ -1,0 +1,2 @@
+connectorId integer connectorId >= 0 1..1 Required. The id of the connector for which availability needs to change. Id '0' (zero) is used if the availability of the Charge Point and all its connectors needs to change.
+type AvailabilityType 1..1 Required. This contains the type of availability change that the Charge Point should perform.
