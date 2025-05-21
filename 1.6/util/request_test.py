@@ -20,14 +20,16 @@ def cmd_decorator(cmd, desc):
     print("\n\n")
 
 def main():
+    server = "ws://168.131.137.105:8887"
     message_path = "../message"
     requests_list = get_requests(message_path)
     cnt = 0
     
     for request in requests_list:
-        cmd = f"python3 ../run.py --request={request} --url=http://test.test --option=True"
-        cmd_decorator(cmd, request)
-        cnt += 1
+        if "Request" in request:
+            cmd = f"python3 ../run.py --request={request} --url={server} --option=True"
+            cmd_decorator(cmd, request)
+            cnt += 1
 
     print(f"Total requests : '{cnt}'")
 
